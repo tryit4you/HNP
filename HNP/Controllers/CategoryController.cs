@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using HNP.Data.Interfaces;
+﻿
+using HNP.DATA.DI.Interfaces;
+using HNP.DATA.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace HNP.Controllers
 {
@@ -18,10 +18,12 @@ namespace HNP.Controllers
         {
             return View();
         }
-        public IActionResult GetAll()
+        public async Task<JsonResult> GetAll()
         {
-            var categories = _categoryRepository.GetAll();
-            return Ok(categories);
+            IEnumerable<Category> categories = await _categoryRepository.GetAll();
+            return Json(new {
+                categories
+            });
         }
     }
 }

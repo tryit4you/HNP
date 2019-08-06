@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNP", "HNP\HNP.csproj", "{61AED78D-0062-41E8-B50C-EE653E5B52A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HNP", "HNP\HNP.csproj", "{61AED78D-0062-41E8-B50C-EE653E5B52A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNPAdmin", "HNPAdmin\HNPAdmin.csproj", "{F4A6E0CB-1B05-4D33-8ACA-11771AF625E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNP.DATA", "HNP.DATA\HNP.DATA.csproj", "{59D17C24-B604-4CF8-B058-01A84D0EAC51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNP.SH", "HNP.SH\HNP.SH.csproj", "{F5430C76-A56C-4F0E-ABB1-CA48C608F7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{61AED78D-0062-41E8-B50C-EE653E5B52A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AED78D-0062-41E8-B50C-EE653E5B52A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61AED78D-0062-41E8-B50C-EE653E5B52A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A6E0CB-1B05-4D33-8ACA-11771AF625E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A6E0CB-1B05-4D33-8ACA-11771AF625E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A6E0CB-1B05-4D33-8ACA-11771AF625E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A6E0CB-1B05-4D33-8ACA-11771AF625E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D17C24-B604-4CF8-B058-01A84D0EAC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D17C24-B604-4CF8-B058-01A84D0EAC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D17C24-B604-4CF8-B058-01A84D0EAC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D17C24-B604-4CF8-B058-01A84D0EAC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5430C76-A56C-4F0E-ABB1-CA48C608F7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5430C76-A56C-4F0E-ABB1-CA48C608F7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5430C76-A56C-4F0E-ABB1-CA48C608F7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5430C76-A56C-4F0E-ABB1-CA48C608F7E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

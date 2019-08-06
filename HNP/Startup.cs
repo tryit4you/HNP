@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using HNP.Data;
-using HNP.Data.Interfaces;
-using HNP.Data.Models;
+﻿
 using HNP.Data.Repositories;
+using HNP.DATA;
+using HNP.DATA.DI.Interfaces;
+using HNP.DATA.DI.Repositories;
+using HNP.DATA.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;

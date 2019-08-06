@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using HNP.Data.Interfaces;
+﻿
+using HNP.DATA.DI.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HNP.Controllers
